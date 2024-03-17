@@ -14,7 +14,7 @@ v.close()
 readme = os.path.join(os.path.dirname(__file__), 'README.rst')
 requires = [
     'python-tds',
-    'SQLAlchemy >= 2.0',
+    'SQLAlchemy >= 1.4.49',
 ]
 
 setup(name='sqlalchemy_pytds',
@@ -24,7 +24,7 @@ setup(name='sqlalchemy_pytds',
       long_description_content_type='text/x-rst',
       author='Grzegorz Makarewicz',
       author_email='mak@trisoft.com.pl',
-      url='https://github.com/m32/sqlalchemy-tds',
+      url='https://github.com/WorldException/sqlalchemy-tds',
       license='MIT',
       platforms=["any"],
       packages=['sqlalchemy_pytds'],
